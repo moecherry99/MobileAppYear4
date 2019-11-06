@@ -23,4 +23,5 @@
 
 6th November
 -Moved all files to other repository. Old development can be seen at https://github.com/moecherry99/MobAppUnityGymRat
+-Added DeathZone script and GameObject so that the player dies if falling below a certain y axis.
 

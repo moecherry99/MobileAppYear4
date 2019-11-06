@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickupCollision : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider collider)
+    void Collider2D(Collider collider)
     {
         if(collider.gameObject.CompareTag("Protein"))
         {
