@@ -1,0 +1,23 @@
+11th October
+-Started Github repository.
+
+12th October
+-Requested assets from game creator Tomas to start developing.
+
+15th October
+-Assets received from Tomas, uploading to Github.
+-Project uploaded to Github.
+-Starting to learn Unity 2D development. 
+
+21st October 
+-Added player model from standard assets on Unity site.
+-Added player collision with Protein shakes.
+
+26th October
+-Updated github repository, removed old files to refresh repository.
+
+29th October
+-Sorted out file hierarchy on Github, working on menu UI on game startup and pause menu with referenced video.
+-Finished menu layout and trigger events for button clicks.
+-Working on pause menu inside of game with quit, options and save functionalities.
+

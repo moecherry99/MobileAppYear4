@@ -1,0 +1,20 @@
+Menu UI
+-
+
+Scene Creation
+-Player character from standard assets added but not transformed into Gym Rat sprite
+
+Player Collision
+-Player can walk on ground
+
+Enemy Collision
+-
+
+Player and Enemy Attacks
+-
+
+Item Pickup Functionality + HP status
+-Items can be picked up but no functionality
+
+Level Transitions
+-
