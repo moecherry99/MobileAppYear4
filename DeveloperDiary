@@ -25,3 +25,9 @@
 -Moved all files to other repository. Old development can be seen at https://github.com/moecherry99/MobAppUnityGymRat
 -Added DeathZone script and GameObject so that the player dies if falling below a certain y axis.
 
+7th November
+-Added background sprite for colour, adding few platforms and enemy AI sprite for first level.
+
+8th November
+-Uploaded changes to Github from previous day.
+
