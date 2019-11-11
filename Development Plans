@@ -1,5 +1,5 @@
 Menu UI
--
+-Menu options Play, Options, Exit.
 
 Scene Creation
 -Player character from standard assets added but not transformed into Gym Rat sprite
@@ -8,13 +8,14 @@ Player Collision
 -Player can walk on ground
 
 Enemy Collision
--
+-AI to develop
 
 Player and Enemy Attacks
--
+-Throw items, enemy walks back and forth
 
 Item Pickup Functionality + HP status
 -Items can be picked up but no functionality
 
 Level Transitions
--
+-Box sprite with disabled mesh rendering, triggering new level. 
+-New button panel to display options to retry, proceed, exit to main menu.
