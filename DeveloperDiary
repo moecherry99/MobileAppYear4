@@ -39,5 +39,6 @@
 -Added an end level menu that is half working (need quit to work properly and next level scene to load) and added a moving platform.
 -Adapting moving platform on to the enemy in the level to get it to transform from position A to position B.
 -Level two scene successfully added, enemy movement needed and proper sprite for end of level.
+-Enemy movement added, when trying to return to main menu the scene does not work as buttons do not activate after.
 
 
