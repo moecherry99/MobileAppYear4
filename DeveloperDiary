@@ -35,4 +35,8 @@
 -Completion Trigger/Panel added for level one. 
 -TO DO -> Add level two scene and transition to it when triggering finish, also added buttons to "Retry" or "Proceed" or "Exit to Main Menu" when finishing.
 
+12th November
+-Added an end level menu that is half working (need quit to work properly and next level scene to load) and added a moving platform.
+-Adapting moving platform on to the enemy in the level to get it to transform from position A to position B.
+
 
