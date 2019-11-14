@@ -19,3 +19,6 @@ Item Pickup Functionality + HP status
 Level Transitions
 -Box sprite with disabled mesh rendering, triggering new level. 
 -New button panel to display options to retry, proceed, exit to main menu.
+
+Interactions
+-Vendor buy items with Protein Shakes.
