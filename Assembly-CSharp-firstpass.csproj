@@ -69,6 +69,7 @@
     <Compile Include="Assets\Standard Assets\2D\Scripts\PickupCollision.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+    <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformMovement.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Respawn.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Restarter.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />

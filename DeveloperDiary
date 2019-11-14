@@ -35,4 +35,22 @@
 -Completion Trigger/Panel added for level one. 
 -TO DO -> Add level two scene and transition to it when triggering finish, also added buttons to "Retry" or "Proceed" or "Exit to Main Menu" when finishing.
 
+12th November
+-Added an end level menu that is half working (need quit to work properly and next level scene to load) and added a moving platform.
+-Adapting moving platform on to the enemy in the level to get it to transform from position A to position B.
+-Level two scene successfully added, enemy movement needed and proper sprite for end of level.
 
+-Enemy movement added, when trying to return to main menu the scene does not work as buttons do not activate after.
+-Added EventSystem to Menu Scene, fixed the problem as "Force Module Active" was not checked initially.
+
+14th November
+-Expanded level size for level one, added more platforms and will develop in debt levels in future.
+
+---------------------TO DO 14th November - 20th November--------------------------------
+-Functionality for "Vendor" NPC at end of level should be implemented soon. 
+-Proper AI functionality (chase target on sight).
+-Proper menu layout as suggested in Design Document.
+-Saving game files.
+-Proper buttons for Phone usage.
+-Protein Shake UI (add 1 for pickup) and spend at vendor for ***cosmetic upgrades.***
+----------------------------------------------------------------------------------------
