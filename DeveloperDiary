@@ -46,7 +46,7 @@
 14th November
 -Expanded level size for level one, added more platforms and will develop in debt levels in future.
 
----------------------TO DO 14th November - 20th November--------------------------------
+---------------------30th November Onwards--------------------------------
 -Functionality for "Vendor" NPC at end of level should be implemented soon. 
 -Proper AI functionality (chase target on sight).
 -Proper menu layout as suggested in Design Document.
@@ -54,6 +54,11 @@
 -Proper buttons for Phone usage.
 -Protein Shake UI (add 1 for pickup) and spend at vendor for ***cosmetic upgrades.***
 ----------------------------------------------------------------------------------------
+
+28th November
+-Project development has slowed due to other projects underway. Small changes have been made but have not been uploaded to git as they were not necessary.
+
+
 <<<<<<< HEAD
 =======
 
