@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PickupCollision : MonoBehaviour
 {
-    void Collider2D(Collider collider)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collider.gameObject.CompareTag("Protein"))
+        if (other.name == "Player")
         {
-            Destroy(collider.gameObject);
+            Destroy(gameObject);
         }
     }
 }
