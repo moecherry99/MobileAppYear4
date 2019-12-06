@@ -18,8 +18,8 @@ TagManager:
   - Player
   - Ground
   - Enemy
-  - 
-  - 
+  - Back1
+  - Back2
   - 
   - 
   - 
@@ -41,6 +41,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Back1
+    uniqueID: 3496942041
+    locked: 0
+  - name: Back2
+    uniqueID: 164997499
     locked: 0
   - name: Background
     uniqueID: 2002553525
