@@ -17,12 +17,17 @@ Item Pickup Functionality + HP status
 -Items can be picked up but no functionality
 
 Level Transitions
--Box sprite with disabled mesh rendering, triggering new level. 
+-Weights/Treadmill to trigger end. 
 -New button panel to display options to retry, proceed, exit to main menu.
 
-Interactions
-<<<<<<< HEAD
--Vendor buy items with Protein Shakes.
-=======
--Vendor buy items with Protein Shakes.
->>>>>>> 5929a80c31a7794dcb64865ed87a67106a947fb3
+------------------------------------------------------------
+TO DO : Updating regularly
+Protein Buy items
+Centaur enemy shoot.
+Centaur + Rhino walk animations.
+(Checkpoint).
+Buttons for Phone Functionality.
+Last two level scenes + design.
+Finish Panda anim by flipping Y axis.
+
+

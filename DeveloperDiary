@@ -68,15 +68,20 @@
 -Created new ground sprite for aesthetic appeal.
 -Added vendor page with proper panel, must include protein functionality.
 
-TO DO :
-Protein Pickup functionality working.
+TO DO : 
+Protein Buy items
 Centaur enemy shoot.
-Panda + Centaur + Rhino walk animations.
-Music + Sounds.
+Centaur + Rhino walk animations.
 (Checkpoint).
 Buttons for Phone Functionality.
 Last two level scenes + design.
-Deathzone loses Protein functionality.
+Finish Panda anim by flipping Y axis.
+
+8th December
+-Added Sounds from Protein Shakes, not working as intended(wanted them to only play sound when picked up). Instead they radiate a sound when close to them.
+-Added references from YT songs on levels.
+-Panda walk sprite animation added, not flipping as its Y axis rotates. Working on solution.
+
 
 
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public AudioClip noise1;
+    public AudioSource noise;
 
     public CharacterController2D controller;
     public Animator animator;
@@ -14,7 +16,10 @@ public class PlayerMovement : MonoBehaviour
 
     bool jump = false;
     bool attack = false;
-
+    void Start()
+    {
+        noise = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -35,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         {
             attack = true;
             animator.SetBool("Attacking", true);
-            
+
         }
 
         // Messy as this requires movement to cancel attack animation
@@ -43,13 +48,13 @@ public class PlayerMovement : MonoBehaviour
         {
             attack = false;
             animator.SetBool("Attacking", false);
-          
+
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
             attack = false;
             animator.SetBool("Attacking", false);
-            
+
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
@@ -70,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("isJumping", false);
-        
+
     }
 
     // After fixed time, jump ends
@@ -78,7 +83,15 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
-        
 
+
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (gameObject.tag == "Protein")
+        {
+            noise.PlayOneShot(noise1);
+        }
     }
 }

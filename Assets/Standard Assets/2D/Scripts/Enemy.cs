@@ -8,18 +8,29 @@ public class Enemy : MonoBehaviour
     public float speed;
 
     private Animator anim;
-
-    private void Start()
-    {
-        
-    }
+    public Animator animator;
 
     private void Update()
     {
-        if(health <= 0)
+        if (speed < 0)
+        {
+            animator.SetBool("Walk", true);
+        }
+
+       
+
+        if (health <= 0)
         {
             Debug.Log("Killed Enemy");
             Destroy(gameObject);
+        }
+    }
+
+    private void HandleMovement(bool horizontal)
+    {
+        if(speed > 0)
+        {
+            horizontal = true;
         }
     }
 
@@ -31,4 +42,7 @@ public class Enemy : MonoBehaviour
             Debug.Log("damage taken " + damage);
         }
     }
+
+  
+
 }
