@@ -82,6 +82,20 @@ Finish Panda anim by flipping Y axis.
 -Added references from YT songs on levels.
 -Panda walk sprite animation added, not flipping as its Y axis rotates. Working on solution.
 
+9th December
+-Rhino Walk anim working, updated panda anim and working properly, player anim for walking to be updated next.
+-Music added to second and third level, need to add centaur shoot for third level.
+
+-Possibly some data storage to be added to save protein shakes to next level.
+-Add in Sprite update when buying cosmetics, maybe change up rat anim in 2nd/3rd levels.
+-Pause button functionality.
+-Phone button functionality.
+-(Saving and Checkpoints).
+-Update levels accordingly with good design.
+-Update Menu Panels.
+
+-Rat Walk animation causing problems, may need to keep it as it is. 
+
 
 
 
