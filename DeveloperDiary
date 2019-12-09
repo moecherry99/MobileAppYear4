@@ -96,6 +96,20 @@ Finish Panda anim by flipping Y axis.
 
 -Rat Walk animation causing problems, may need to keep it as it is. 
 
+9th December 20:30
+-Added phone button functionality, disabled canvas as still in development.
+-Not using Checkpoints and Saving for game and not updating sprite on protein shake buying off vendor.
+^ Discussed this with Tomas.
+
+TO DO:
+-Centaur shoot arrows and AI movement for extra enemies.
+-Pause functionality
+-Level design to be updated
+-Menu panels to be updated
+-Test cases
+
+
+
 
 
 

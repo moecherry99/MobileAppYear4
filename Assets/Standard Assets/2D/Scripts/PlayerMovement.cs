@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // change Input to CrossPlatformInputManager for all inputs
+        // Reference for Cross Platform Input : https://www.youtube.com/watch?v=RqomLumqwCk
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         // Absolute makes value positive
