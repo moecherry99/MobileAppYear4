@@ -3,14 +3,14 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/LevelOne.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/Vendor.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/LevelTwo.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
 - path: Assets/Scenes/LevelThree.unity
   isLoaded: 0
   isActive: 0
