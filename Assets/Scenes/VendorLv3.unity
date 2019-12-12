@@ -2179,8 +2179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 37.8, y: 0}
-  m_SizeDelta: {x: -75.7, y: 0}
+  m_AnchoredPosition: {x: -0.000030517578, y: 95}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750159002
 MonoBehaviour:
@@ -2200,7 +2200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next Level
+  m_text: Game Complete!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 5
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2266,10 +2266,10 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -56.292206, y: 0, z: 17.06195, w: 0}
+  m_margin: {x: 3.6036682, y: 103.20447, z: -40.768433, w: 0}
   m_textInfo:
     textComponent: {fileID: 750159002}
-    characterCount: 10
+    characterCount: 14
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -2924,7 +2924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37.1, y: -130}
+  m_AnchoredPosition: {x: 9.000006, y: -99}
   m_SizeDelta: {x: 493.9, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030935720
@@ -3303,7 +3303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.3, y: -30}
+  m_AnchoredPosition: {x: 9, y: 26}
   m_SizeDelta: {x: 754.6, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119107066
@@ -4239,8 +4239,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.7, y: 60}
-  m_SizeDelta: {x: 494.3, y: 90}
+  m_AnchoredPosition: {x: 18, y: 153}
+  m_SizeDelta: {x: 700.8, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718872114
 MonoBehaviour:
@@ -4249,7 +4249,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718872112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -4306,7 +4306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.13972943, b: 0.13972943, a: 1}
+  m_Color: {r: 0.18867922, g: 0.13972943, b: 0.13972943, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5061,8 +5061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.6, y: 0}
-  m_SizeDelta: {x: -17.2, y: 0}
+  m_AnchoredPosition: {x: 30.6, y: 0}
+  m_SizeDelta: {x: 106.7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061513171
 MonoBehaviour:
@@ -5082,7 +5082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Buy
+  m_text: Upgrade
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5151,7 +5151,7 @@ MonoBehaviour:
   m_margin: {x: 41.279633, y: 0, z: 12.757324, w: 0}
   m_textInfo:
     textComponent: {fileID: 2061513171}
-    characterCount: 3
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -5355,7 +5355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2117484447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5373,8 +5373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: 150}
-  m_SizeDelta: {x: 237.4, y: 90}
+  m_AnchoredPosition: {x: 8.3, y: 121}
+  m_SizeDelta: {x: 369.5, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117484448
 MonoBehaviour:
