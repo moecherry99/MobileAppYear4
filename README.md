@@ -4,23 +4,20 @@ Old files moved from https://github.com/moecherry99/MobAppUnityGymRat for cleane
 
 ## Gym Rat
 
-The aim of this project is to develop a 2D Platformer in Unity. 
+The aim of this project is to develop a 2D Platform in Unity. 
+The player must progress through three levels in the game while avoiding 
+and killing enemies, collecting protein shakes and making it to the gym equipment 
+to finish the levels.
 
-### References 
+## References can be found in "References" Wiki page.
 
-Brackeys YouTube tutorial for 2D game development in Unity 
-https://www.youtube.com/watch?v=UbPiCgCkHTE&t=277s
-
-Menu UI for Unity
-https://www.youtube.com/watch?v=zc8ac_qUXQY
-
-End Level Helpers Unity2D
-https://www.youtube.com/watch?v=QJBL9eHBsso
-https://www.youtube.com/watch?v=Iv7A8TzreY4
-
-Moving Platform
-https://www.youtube.com/watch?v=4R_AdDK25kQ
+### Controls
+Move : W/A/S/D or Arrow keys. 
+Jump : Space. 
+Attack : Tab. 
+Pause : Escape. 
 
 ### Current Issues
-Player model gets stuck when falling and can seem to grip onto edges of platforms.
-Player does not stay stationary/alligned with a platform moving across the x-axis. 
+Player does not stick to platforms as they move. Not a problem as this can be seen as a game mechanic.
+Upgrade function in exchange for Protein Shakes not working. Makes Vendor scenes redundant until properly applied.
+
