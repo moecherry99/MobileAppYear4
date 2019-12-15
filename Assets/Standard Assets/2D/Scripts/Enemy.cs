@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        // if speed is greater than 0, use walk animation
         if (speed < 0)
         {
             animator.SetBool("Walk", true);
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
 
        
 
+        // destroys enemy if health is 0
         if (health <= 0)
         {
             Debug.Log("Killed Enemy");
@@ -28,6 +30,7 @@ public class Enemy : MonoBehaviour
 
     private void HandleMovement(bool horizontal)
     {
+        // attempt at flipping sprite
         if(speed > 0)
         {
             horizontal = true;
@@ -36,6 +39,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        // damage debug log
         health -= damage;
         if (health <= 1)
         {

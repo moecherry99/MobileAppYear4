@@ -128,6 +128,9 @@ TO DO:
 -Test cases
 -Vendor function working somehow
 
+15th December
+-Had to fix a quick bug in the project in regards to the player sliding off platforms and not being able to jump. Due to a layer change.
+
 
 
 

@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // if press escape, pauses
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gameIsPaused)
@@ -25,6 +26,8 @@ public class PauseMenu : MonoBehaviour
             
         }
     }
+    
+    // time scale is 1 when not paused, 0 when paused so it freezes game
     public void Resume()
     {
         pauseMenuUI.SetActive(false);

@@ -10,6 +10,8 @@ public class Respawn : MonoBehaviour
     [SerializeField] private Transform player;
 
     [SerializeField] private Transform respawnPoint;
+
+    // if player dies, they move back to the transform position
     private void OnTriggerEnter2D(Collider2D other)
     {
         ProteinScript.proteinValue -= 1;

@@ -8,13 +8,14 @@ public class ProteinScript : MonoBehaviour
 
     public static int proteinValue;
     Text protein;
-    // Start is called before the first frame update
+    
+    // protein text
     void Start()
     {
         protein = GetComponent<Text> ();
     }
 
-    // Update is called once per frame
+    // Protein shake counter
     void Update()
     {
         protein.text = "Protein Shakes : " + proteinValue;

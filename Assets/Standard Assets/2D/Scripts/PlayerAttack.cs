@@ -16,12 +16,13 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         
-        
+        // delay between attack
         if (timeBtwAttack <= 0)
         {
+            // if press tab, do attack
             if (Input.GetKey(KeyCode.Tab))
             {
-                
+                // debug log for attack
                 Debug.Log("Attacked!");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for(int i=0; i < enemiesToDamage.Length; i++)
@@ -38,6 +39,7 @@ public class PlayerAttack : MonoBehaviour
       
     }
  
+    // animation
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
